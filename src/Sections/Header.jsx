@@ -41,7 +41,7 @@ const Header = () => {
     >
       <div className="container flex h-14 items-center max-lg:px-5">
         <a className="lg:hidden flex-1 cursor-pointer z-2">
-          <img src="/sass/images/lumina.svg" width={115} height={55} alt="logo" />
+          <img src="/images/lumina.svg" width={115} height={55} alt="logo" />
         </a>
 
         <div
@@ -70,7 +70,7 @@ const Header = () => {
                     )}
                   >
                     <img
-                      src="/sass/images/lumina.svg"
+                      src="/images/lumina.svg"
                       width={160}
                       height={55}
                       alt="logo"
@@ -88,14 +88,14 @@ const Header = () => {
 
             <div className="lg:hidden block absolute top-1/2 left-0 w-960 h-[380px] translate-x-[-290px] -translate-y-1/2 rotate-90">
               <img
-                src="/sass/images/bg-outlines.svg"
+                src="/images/bg-outlines.svg"
                 width={960}
                 height={380}
                 alt="outline"
                 className="relative z-2"
               />
               <img
-                src="/sass/images/bg-outlines-fill.png"
+                src="/images/bg-outlines-fill.png"
                 width={960}
                 height={380}
                 alt="outline"
@@ -110,7 +110,7 @@ const Header = () => {
           onClick={() => setIsOpen((prevState) => !prevState)}
         >
           <img
-            src={`/sass/images/${isOpen ? "close" : "magic"}.svg`}
+            src={`/images/${isOpen ? "close" : "magic"}.svg`}
             alt="magic"
             className="size-1/2 object-contain"
           />
