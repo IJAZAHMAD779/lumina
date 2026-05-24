@@ -1,6 +1,6 @@
-# SaaS Landing Page
+# Lumina Landing Page
 
-A modern, responsive SaaS landing page built with React and Vite, featuring a clean design with smooth animations and user-friendly navigation. This project showcases a complete landing page solution with all essential sections for a SaaS product presentation.
+A modern, responsive landing page built with React and Vite, featuring a clean design with smooth animations and user-friendly navigation. This project showcases a complete landing page solution with all essential sections for a product presentation.
 
 ## 🚀 Features
 
@@ -26,12 +26,12 @@ A modern, responsive SaaS landing page built with React and Vite, featuring a cl
 
 ## 🎨 Demo
 
-*(https://ijazahmad779.github.io/sass/)*
+https://ijazahmad779.github.io/lumina/
 
 ## 📁 Project Structure
 
 ```
-saas/
+lumina/
 ├── public/
 │   └── images/
 │       ├── logos/          # Brand and partner logos
