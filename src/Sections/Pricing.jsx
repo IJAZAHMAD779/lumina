@@ -3,6 +3,9 @@ import clsx from "clsx";
 import { Element } from "react-scroll";
 import { plans } from "../constants";
 import Button from "../components/Button";
+import { getImageUrl } from "../utils/imageUrl";
+const img = (path) => getImageUrl(path);
+
 
 const Pricing = () => {
   const [monthly, setMonthly] = useState(false);
@@ -40,14 +43,14 @@ const Pricing = () => {
 
             <div className="pricing-bg">
               <img
-                src="/images/bg-outlines.svg"
+                src={img("/images/bg-outlines.svg")}
                 width={960}
                 height={380}
                 alt="outline"
                 className="relative z-2"
               />
               <img
-                src="/images/bg-outlines-fill.png"
+                src={img("/images/bg-outlines-fill.png")}
                 width={960}
                 height={380}
                 alt="outline"
@@ -112,7 +115,7 @@ const Pricing = () => {
                         className="relative flex items-center gap-5"
                       >
                         <img
-                          src="/images/check.png"
+                          src={img("/images/check.png")}
                           alt="check"
                           className="size-10 object-contain"
                         />
